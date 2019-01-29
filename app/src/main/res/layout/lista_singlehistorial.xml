@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    > <!--es muy importante la propiedad descendantFocusability pues sino no funciona el click en los items
+       -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <Button
+        android:layout_height="20dp"
+        android:layout_width="10dp"
+        android:id="@+id/btnHistorial20"
+        android:background="@mipmap/ic_bot_facelive"
+
+        />
+        <Button
+            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:id="@+id/btnHistorial21"
+            android:background="@mipmap/ic_bot_peris"
+
+            />
+        <Button
+            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:id="@+id/btnHistorial22"
+            android:background="@mipmap/ic_bot_whats"
+
+            />
+        <Button
+            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:id="@+id/btnHistorial23"
+            android:background="@mipmap/ic_bot_google"
+
+            />
+        <Button
+            android:layout_height="20dp"
+            android:layout_width="10dp"
+            android:id="@+id/btnHistorial24"
+            android:background="@mipmap/ic_kekiko01_02_medium"
+
+            />
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+<!--
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:id="@+id/btnHistorial"
+            android:background="@mipmap/ic_control_2"
+
+            />
+-->
+        <TextView
+            android:id="@+id/txthistorial"
+            android:textSize="@dimen/lista_text_height"
+            android:layout_height="@dimen/lista_height"
+            android:layout_width="50dp"
+            android:layout_span="5"
+            />
+
+        <ImageView
+            android:id="@+id/imghistorial"
+            android:layout_height="40dp"
+            android:layout_width="40dp"/>
+
+    </TableRow>
+    <!--empty  -->
+
+<!--
+    <TableRow
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <Button
+            android:layout_height="30dp"
+            android:layout_width="20dp"
+            android:id="@+id/btnHistorial30"
+            android:background="@mipmap/ic_robot"
+
+            />
+        <Button
+            android:layout_span="2"
+            android:layout_height="30dp"
+            android:layout_width="40dp"
+            android:id="@+id/btnHistorial31"
+             android:background="@mipmap/ic_kekiko01_03_2_medium2"
+
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:id="@+id/btnHistorial32"
+            android:background="@mipmap/buy_cart_small"
+
+            />
+    </TableRow>
+
+-->
+    <TableRow
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <Button
+        android:layout_height="15dp"
+        android:layout_width="10dp"
+        android:id="@+id/btnHistorial50"
+        android:background="@mipmap/ic_icono_calificar"
+
+        />
+    <Button
+        android:layout_height="15dp"
+        android:layout_width="10dp"
+        android:id="@+id/btnHistorial51"
+        android:background="@mipmap/ic_icono_comments"
+
+        />
+    <Button
+        android:layout_height="15dp"
+        android:layout_width="10dp"
+        android:id="@+id/btnHistorial52"
+        android:background="@mipmap/ic_icono_compartir"
+
+        />
+    <Button
+        android:layout_height="15dp"
+        android:layout_width="10dp"
+        android:id="@+id/btnHistorial53"
+        android:background="@mipmap/ic_icono_lupa"
+
+        />
+    <Button
+        android:layout_height="15dp"
+        android:layout_width="10dp"
+        android:id="@+id/btnHistorial54"
+        android:background="@mipmap/ic_icono_mispuntos"
+
+        />
+
+</TableRow>
+
+<TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!--
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:id="@+id/btnHistorial"
+                    android:background="@mipmap/ic_control_2"
+
+                    />
+        -->
+        <TextView
+            android:id="@+id/txthistorialpuntos"
+            android:textSize="@dimen/lista_text_height"
+            android:layout_height="@dimen/lista_height"
+            android:text="25pts Usados/4pts Ganados"
+            android:layout_width="100dp"
+            android:layout_span="6"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!--
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:id="@+id/btnHistorial"
+                    android:background="@mipmap/ic_control_2"
+
+                    />
+        -->
+        <TextView
+            android:id="@+id/txthistorialdias"
+            android:textSize="@dimen/lista_text_height"
+            android:layout_height="@dimen/lista_height"
+            android:text="Hace 19 horas"
+            android:layout_width="100dp"
+            android:layout_span="6"
+            />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+
+    > <!--es muy importante la propiedad descendantFocusability pues sino no funciona el click en los items
+       -->
+    <TableRow >
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:id="@+id/btnHistorial20"
+        android:background="@mipmap/facelive"
+
+        />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:id="@+id/btnHistorial21"
+            android:background="@mipmap/ic_peris"
+
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:id="@+id/btnHistorial22"
+            android:background="@mipmap/ic_whatsapp_small"
+
+            />
+    </TableRow>
+
+
+
+    <TableRow >
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:id="@+id/btnHistorial"
+            android:background="@mipmap/ic_control_2"
+
+            />
+        <TextView
+            android:id="@+id/txthistorial"
+            android:textSize="@dimen/lista_text_height"
+            android:layout_height="@dimen/lista_height"
+            />
+        <ImageView
+            android:id="@+id/imghistorial"
+            android:layout_height="50dp"/>
+
+
+
+    </TableRow>
+    <!--empty  -->
+
+
+    <TableRow >
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:id="@+id/btnHistorial30"
+            android:background="@mipmap/ic_robot"
+
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:id="@+id/btnHistorial31"
+            android:background="@mipmap/cardborad"
+
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:id="@+id/btnHistorial32"
+            android:background="@mipmap/buy_cart_small"
+
+            />
+    </TableRow>
+
+
+</TableLayout>

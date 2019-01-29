@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.youtochi.qtienditas.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+<!-- estos se depliegan en la parte superior de la main screen listado de historial actividades del socio
+    <Button
+        android:id="@+id/comprarBtn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/cobrar1"
+
+        android:onClick="irCheckOut"
+        />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido_lista_robots" />
+    <Button
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/btnAddnewCompra20"
+        android:background="@mipmap/buy_cart_small_keliko02"
+
+        />
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
